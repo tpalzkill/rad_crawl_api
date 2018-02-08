@@ -12,7 +12,8 @@ const passport = require('koa-passport');
 const localStrategy = require('passport-local').Strategy;
 const session = require('koa-session');
 
-const index = require('./routes/index')
+const index = require('./routes/index');
+
 
 
 // error handler
