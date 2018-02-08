@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bcrypt": "^1.0.3",
+    "bcryptjs": "^2.4.3",
     "debug": "^2.6.3",
     "knex": "^0.14.2",
     "koa": "^2.2.0",
