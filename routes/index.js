@@ -3,7 +3,7 @@ const router = require('koa-router')()
 
 const config = require('../knexfile')['production'];
 const knex = require('knex')(config);
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const passport = require('koa-passport');
 const localStrategy = require('passport-local').Strategy;
 const session = require('koa-session');
